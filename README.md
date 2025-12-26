@@ -10,6 +10,7 @@ This analysis began as a personal investigation ("Version 1") into CTE and head 
 * **Concussions are down ~75%:** Analysis of the 10-year dataset shows reports dropped from **656** (2015) to **~152** (2024). This steep decline correlates strongly with the 2018 Targeting Rule and the introduction of Guardian Caps.
 * **"Skill" Positions are High Risk:** Wide Receivers (WR) and Tight Ends (TE) suffer the highest volume of concussions due to high-speed open-field collisions.
 * **QB Recovery Time:** While Quarterbacks are protected by rules, when injured, they miss significant time (avg ~3 weeks), with **Shoulder** and **Back** injuries being the primary causes.
+* ![NFL Concussion Dashboard](dashboard_screenshot.png)
 
 ## 🛠️ Tech Stack
 * **SQL (MySQL):** Used `GROUP BY`, `HAVING`, and `COUNT(DISTINCT)` to normalize injury duration and filter out low-sample anomalies.
@@ -21,4 +22,5 @@ This analysis began as a personal investigation ("Version 1") into CTE and head 
 2.  Run the analysis script:
     ```bash
     python concussion_trend.py
+
     ```
